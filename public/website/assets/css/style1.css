@@ -1,0 +1,222 @@
+body {
+    background-color: #fbfbfb;
+}
+@media (min-width: 991.98px) {
+    main {
+        padding-left: 240px;
+    }
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 50px 0 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+    .sidebar {
+        width: 100%;
+    }
+}
+.sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.nested-items {
+    text-align: left;
+    margin-left: 30px; /* Adjust the margin to align nested items slightly to the left */
+}
+
+.btn-toggle-nav .link-dark {
+    text-decoration: none !important; /* Remove underline */
+}
+.btn-toggle {
+    text-align: left; /* Align button text to the left */
+    width: 100%; /* Set button width to fill the container */
+    border: none; /* Remove button border */
+    background-color: transparent; /* Set button background color to transparent */
+}
+/* Add special shadow or border to sub-items on hover */
+.btn-toggle-nav li:hover {
+    /* Add your styles here, for example: */
+    box-shadow: 0 0 5px rgba(14, 14, 24, 0.9); /* Shadow effect */
+    border-radius: 5px;
+}
+
+
+
+
+/* Sidebar */
+
+/*nav bar start*/
+#addProperty {
+    background-color: rgb(62, 64, 105, 1) ; /* Custom background color */
+    border-color: rgb(62, 64, 105, 1); /* Custom border color */
+    color: #ffffff; /* Custom text color */
+    font-weight: bold; /* Bold text */
+    padding: 8px 16px; /* Custom padding */
+    border-radius: 5px; /* Rounded corners */
+}
+
+#addProperty:hover {
+    background-color: #59667d; /* Custom hover background color */
+    border-color: #4e5468; /* Custom hover border color */
+    color: #ffffff; /* Custom hover text color */
+}
+
+#logo{
+    max-width: 140px; /* Set the maximum width */
+    max-height: 120px; /* Set the maximum height */
+    margin-top: 0px;
+    /*margin-left: 400px;*/
+}
+
+#pb{
+    margin-left: 200px;
+}
+
+
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.panel-default > .panel-heading {
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+
+.panel-default > .panel-heading a {
+    color: #333;
+}
+
+.panel-default > .panel-heading a:focus,
+.panel-default > .panel-heading a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.panel-body {
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 5px;
+    }
+
+    .panel-group {
+        margin-top: 20px;
+    }
+}
+
+#panel1{
+    background-color: #949ab1;
+    color: #000000;
+    border-radius: 8px;
+    padding: 1px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-left: 10px;
+
+}
+#panelH{
+    border-radius:7px;
+    padding-top: 4px;
+}
+.section {
+    padding: 1rem 0;
+}
+#step1 {
+    display: block;
+}
+
+
+#buttons {
+    position: relative; /* Change to relative positioning */
+    text-align: center; /* Center-align the buttons */
+    margin-top: 10px; /* Add margin to separate from form */
+}
+
+/* Style for buttons */
+#buttons button {
+    margin: 5px; /* Add margin between buttons */
+}
+
+.panel-group .panel-heading {
+    border-radius: 5px; /* Adjust border radius as needed */
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+/*nav bar end*/
+/* progressbar */
+.progress {
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #949ab1;
+}
+
+.step-label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.step-highlighted {
+    color: #949ab1;
+}
+/* Progressbar */
+
+/* add property page */
+.form-container {
+    background-color: #fff; /* Background color of the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Shadow effect */
+    padding: 20px; /* Padding inside the container */
+}
+/* add property page */
+
+/* service request */
+
+.slim-textarea {
+    resize: none; /* Prevent manual resizing */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    min-height: 38px; /* Set initial height */
+    transition: min-height 0.25s ease; /* Add smooth transition */
+    max-height: 200px; /* Set maximum height */
+}
+
+.slim-textarea:focus {
+    outline: none; /* Remove focus outline */
+}
+
+/* service request end */
+
+/* repair request status */
+
+/* CSS */
